@@ -1,0 +1,7 @@
+        public void select(object sender, EventArgs e)
+        {
+            if (((MouseEventArgs)e).Button == System.Windows.Forms.MouseButtons.Left)
+                decouverte(sender, e);
+            else
+                decouverteMine(sender, e);
+        }
